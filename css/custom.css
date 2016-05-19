@@ -1,0 +1,440 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+
+#topNav{
+	    background: #262626;
+    height: 144px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+a.navbar-brand {
+    max-width: 230px;
+    padding-top: 24px;
+}
+
+
+.rgt-menu{
+	background:#262626;
+}
+#mainNav li.active{
+		border-bottom:6px solid #fed200;
+}
+#mainNav li a{
+background: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.88em;
+    border-right: 1px solid #909090;
+    padding: 0 14px;
+    margin-bottom: 22px;
+}
+#mainNav li:last-child a{
+	padding-right:0;
+	border:none;
+}
+.thesso-services li.tech {
+  width: 95.3%;
+  float: left;
+}
+
+.tech img {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+@media (min-width: 768px){
+.navbar-right {
+    margin-top: 95px;
+}
+}
+#miscNav{
+	background: #444;
+    border-radius: 4px;
+}
+#miscNav a{
+	padding: 0px 15px;
+    border-right: 1px solid #909090;
+    MARGIN: 5px 0;
+}
+
+#miscNav li:last-child a{
+	border:none;
+}
+#myCarousel .carousel-caption{
+	bottom:initial;
+	top:20%;
+    color:#76F9F0;
+}
+
+#myCarousel .carousel-caption p{
+    font-weight: 100;
+    font-size: 3.25em;
+	text-align:left;
+	padding-left:23%;
+}
+#myCarousel .carousel-caption p strong{
+	background:#0a1a33;
+	padding:4px 7px;
+	color:#76F9F0;
+	font-weight:bold;
+}
+
+#myCarousel.carousel {
+    margin-bottom: 0;
+}
+#thessoWord{
+	background:#19aca2;
+	padding:0;
+	margin:0;
+	text-align:center;
+	padding:5px 0;
+	
+}
+#thessoWord p{
+	color:#fff;
+	padding:10px 0;
+	font-size:1.55em;
+	width:45%;
+	margin:0 auto;
+	font-weight:bold;
+}
+
+#highlight{
+    padding: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#highlight p{
+	    font-size: 1.09em;
+    padding: 25px;
+    margin-bottom: 35px;
+    letter-spacing: 0.03em;
+}
+#highlight i{
+	display:block;
+	font-size:3.35em;
+	color:#ffd300;
+	text-align:center;
+}
+.glyphicon {
+margin-right: 4px !important; /*override*/
+}
+.pagination .glyphicon {
+margin-right: 0px !important; /*override*/
+}
+.pagination a {
+color: #555;
+}
+.panel ul {
+padding: 0px;
+margin: 0px;
+list-style: none;
+}
+.news-item {
+padding: 4px 4px;
+margin: 0px;
+border-bottom: 1px dotted #555;
+}
+#spread-content{
+	margin-top:25px;
+	margin-left:0;
+	margin-right:0;
+}
+#current_news{
+/*background: #f2f2f2;*/
+    padding: 25px 41px;
+}
+
+#current_news .ser-high h3{
+    
+    
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+#current_news .ser-high h3 a{
+    font-size: 0.60em;
+    color: #756414;
+    font-weight: bold;
+}
+.ser-high{
+background: #ffd300;
+    padding: 45px 20px 45px 35px;
+    margin-bottom: 25px;
+}
+
+.survey{
+    background: #FDF1B4;
+}
+.engg{
+    background: #FBF2A6;
+}
+.inst{
+    background: #FBE9B6;
+}
+
+
+
+#current_news .glyphicon{
+    font-size: 2.02em;
+    color: #756414;
+    margin-right: 18px !important;
+}
+
+#projects-blk{
+	margin-left:0;
+	margin-right:0;
+	margin-top:40px;
+}
+
+#projects-blk header{
+	color:#262626;
+	font-size:1.25em;
+	background:#fed200;
+	text-transform:uppercase;
+	padding:12px;
+	font-weight:bold;
+    margin-bottom: 12px;
+}
+#projects-blk .thumbnail {
+    position:relative;
+    overflow:hidden;
+	border:none;
+}
+ 
+#projects-blk .caption {
+    position:absolute;
+    top:2px;
+    left:4px;
+    background:rgba(52, 52, 53, 0.75);
+    width: 96.5%;
+    height: 60%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+#projects-blk .caption h4{
+    font-size: 17px;
+    margin-top:5px;
+}
+ul.social li {
+    margin-right:5%;
+}
+.full {
+    width: 100%;	
+    height: 45px;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #202121;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-top: 1px solid #DDDDDD;
+    padding-top: 25px;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+    border-bottom: 1px solid #40464C;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    display: block;
+    padding-bottom: 14px;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+}
+.footer a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+	background: none repeat scroll 0 0 #363636;
+	border: 2px solid #343434;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 38px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	background: rgba(26, 24, 24, 1);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #BDB8B8;
+}
+
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+    color: rgba(122, 117, 117, 1);
+}
+.payments {
+	font-size: 1.5em;	
+}
+
+/* INNER PAGE STYLE */
+.content {
+    background: rgba(255,255,255,0.98);
+    padding: 39px 0;
+    min-height: 332px;
+    background: url('../images/Solar-plant.jpg') no-repeat center center;
+}
+.content .container {
+    background: #fff;
+    box-shadow: 0px 4px 4px #e4e4e4;
+    padding-bottom: 10px;
+    padding: 23px 56px;
+    width: 1024px;
+}
+
+article.thesso-desc, .thesso-services {
+    line-height: 25px;
+    letter-spacing: 0.03em;
+}
+
+.content h2.heading{
+	color: #2d6ca2;
+    font-weight: 600;
+    font-size: 157%;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+}
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #FCFAFA;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.thesso-services .panel-title {
+    font-weight: 600;
+}
+
+ul.service-list li {
+    float: left;
+    padding: 3px 12px;
+    margin: 12px 12px;
+    background: #FEE465;
+    border-radius: 3px;
+    border: 1px solid #E3BD06;
+    font-weight: 700;
+    width: 130px;
+    text-align: center;
+}
+.panel-default>.panel-heading {
+    color: #FAF2F2;
+    background-color: #17AFA2;
+    border-color: #ddd;
+	background-image:none !important;
+}
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
